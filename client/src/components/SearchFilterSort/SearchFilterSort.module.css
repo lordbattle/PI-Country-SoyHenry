@@ -1,0 +1,57 @@
+.div_containerFilter {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: #86bbda;
+  opacity: 90%;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0px 0px 20px 5px #f1f5f53d;
+}
+
+.div_searchName {
+  align-self: center;
+  width: 50%;
+}
+
+.div_searchName input {
+  font-family: "Alkatra", cursive;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 3px 2px 8px 2px #dfd9d9;
+}
+
+.div_filterSelectors {
+  width: 60%;
+  align-self: center;
+}
+
+.div_filterSelectors select {
+  font-family: "Alkatra", cursive;
+  width: 80%;
+  display: flex;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 3px 2px 8px 2px #caddee;
+}
+
+/*Estilos para el botón de Reset*/
+.div_btnReset {
+  color: #020202;
+  border-color: #2c2c2c;
+  opacity: 90%;
+  justify-content: center;
+  align-self: center;
+  height: 70px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.div_btnReset:hover {
+  box-shadow: 7px 7px 10px 5px #fdfcef3d;
+  opacity: 100%;
+}
